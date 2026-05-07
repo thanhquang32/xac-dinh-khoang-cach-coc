@@ -114,3 +114,4 @@ class CupDetector:
         # Return top 2 by area
         cups.sort(key=lambda c: (c['x2']-c['x1'])*(c['y2']-c['y1']), reverse=True)
         return cups[:2]
+# hêllo
